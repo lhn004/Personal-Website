@@ -11,7 +11,7 @@
 }
 
 .skillTitle {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
@@ -31,6 +31,13 @@
     text-align: left;
 }
 
+.hobbiesBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
 .skillBar {
     display: flex;
     margin: 1rem;
@@ -40,6 +47,7 @@
     color: white
 }
 
+
 .skillBarImg {
     object-fit: cover;
     height: 3rem;
@@ -47,9 +55,35 @@
     margin-right: 2rem;
 }
 
+.hobbiesImgs {
+    margin: 1rem 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.hobbiesImg {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+
 .skillBarText>p {
     font-size: 1rem;
     font-weight: 200;
+}
+
+.image-container {
+    text-align: center; 
+    width: 200px;
+}
+
+.video-container {
+    text-align: center; 
+    width: 560px;
+
 }
 
 @media screen and (max-width:720px) {

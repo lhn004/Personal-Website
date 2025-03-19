@@ -3,6 +3,12 @@ import './skills.css';
 import UIDesign from '../../assets/machine-learning.png';
 import WebDesign from '../../assets/deep-learning.png';
 import AppDesign from '../../assets/analysis.png';
+import Pic1 from '../../assets/IMG_7197.png'
+import Pic2 from '../../assets/IMG_2809.png'
+import Pic3 from '../../assets/IMG_3159.png'
+import Pic4 from '../../assets/IMG_0621.png'
+import Pic5 from '../../assets/IMG_6458.png'
+
 
 const Skills = () => {
     return (
@@ -36,6 +42,33 @@ const Skills = () => {
             </div>
 
             <span className="skillTitle">Hobbies</span>
+            <span className="skillDesc"> I love cooking and baking in my free time as well as listening to music</span>
+            <div className='hobbiesBars'/>
+                <div className='video-container'>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xKsgjGEudfg?si=PlcdMesC-zezkiyb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <span>One of my all-time favorite songs!</span>
+                </div>
+                
+                <div className="hobbiesImgs">
+                    <div className='image-container'>
+                        <img src={Pic1} alt="Cooking Picture" className="hobbiesImg" />
+                    </div>
+                    <div className='image-container'>
+                        <img src={Pic2} alt="Cooking Picture" className="hobbiesImg" />
+                        <span> Big thanks to my sister for the awesome photos!</span>
+                    </div>
+                    <div className='image-container'>
+                        <img src={Pic3} alt="Cooking Picture" className="hobbiesImg" />
+                    </div>
+                    <div className='image-container'>
+                        <img src={Pic4} alt="Cooking Picture" className="hobbiesImg" />
+                        <span> The cake that got me into Bucknell :)) </span>
+                    </div>
+                    <div className='image-container'>
+                        <img src={Pic5} alt="Cooking Picture" className="hobbiesImg" />
+                        <span> My first time cooking the whole turkey!! </span>
+                    </div>
+                </div>
 
         </section>
 
