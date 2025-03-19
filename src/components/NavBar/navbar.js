@@ -35,8 +35,8 @@ const Navbar = () => {
             <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
                 <Link to='/' className="listItem" aria-label="Go to Home Page" onClick={()=>setShowMenu(false)}>Home</Link>
                 <Link to='/about' className="listItem" aria-label="Go to About Page" onClick={()=>setShowMenu(false)}>About</Link>
-                <Link to='/portfolio' className="listItem" onClick={()=>setShowMenu(false)}>Portfolio</Link>
-                <Link to='/' className="listItem" aria-label="Go to Portfolio Page" onClick={()=>setShowMenu(false)}>Contact</Link>
+                <Link to='/portfolio' className="listItem" aria-label="Go to Portfolio Page" onClick={()=>setShowMenu(false)}>Portfolio</Link>
+                <Link to='/' className="listItem" aria-label="Go to Contact Section" onClick={()=>setShowMenu(false)}>Contact</Link>
             </div>
         </nav>
     )
