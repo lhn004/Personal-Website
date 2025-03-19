@@ -19,21 +19,21 @@ const Skills = () => {
             </span>
             <div className="skillBars">
                 <div className="skillBar">
-                    <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+                    <img src={UIDesign} alt="AI" className="skillBarImg" aria-hidden="true"/>
                     <div className="skillBarText">
                         <h2>AI</h2>
                         <p>Design and build AI-powered chatbots and applications using Large Language Models (LLMs) and frameworks like LangGraph and Microsoft Autogen</p>
                     </div>
                 </div>
                 <div className="skillBar">
-                    <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
+                    <img src={WebDesign} alt="Machine Learning" className="skillBarImg" aria-hidden="true"/>
                     <div className="skillBarText">
                         <h2>Machine Learning</h2>
                         <p>Apply machine learning algorithms to solve complex problems, including training, testing, and deploying models</p>
                     </div>
                 </div>
                 <div className="skillBar">
-                    <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
+                    <img src={AppDesign} alt="Data Analysis" className="skillBarImg" aria-hidden="true"/>
                     <div className="skillBarText">
                         <h2>Data Analysis</h2>
                         <p>Extract actionable insights from large datasets, perform exploratory data analysis (EDA), and apply statistical techniques to support decision-making</p>
@@ -45,30 +45,31 @@ const Skills = () => {
             <span className="skillDesc"> I love cooking and baking in my free time as well as listening to music</span>
             <div className='hobbiesBars'/>
                 <div className='video-container'>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xKsgjGEudfg?si=PlcdMesC-zezkiyb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xKsgjGEudfg?si=PlcdMesC-zezkiyb" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     <span>One of my all-time favorite songs!</span>
                 </div>
                 
                 <div className="hobbiesImgs">
                     <div className='image-container'>
-                        <img src={Pic1} alt="Cooking Picture" className="hobbiesImg" />
+                        <img src={Pic1} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
                     </div>
                     <div className='image-container'>
-                        <img src={Pic2} alt="Cooking Picture" className="hobbiesImg" />
+                        <img src={Pic2} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
                         <span> Big thanks to my sister for the awesome photos!</span>
                     </div>
                     <div className='image-container'>
-                        <img src={Pic3} alt="Cooking Picture" className="hobbiesImg" />
+                        <img src={Pic3} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
                     </div>
                     <div className='image-container'>
-                        <img src={Pic4} alt="Cooking Picture" className="hobbiesImg" />
+                        <img src={Pic4} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
                         <span> The cake that got me into Bucknell :)) </span>
                     </div>
                     <div className='image-container'>
-                        <img src={Pic5} alt="Cooking Picture" className="hobbiesImg" />
+                        <img src={Pic5} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
                         <span> My first time cooking the whole turkey!! </span>
                     </div>
                 </div>
+            
 
         </section>
 

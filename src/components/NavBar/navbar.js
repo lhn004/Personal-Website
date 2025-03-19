@@ -31,7 +31,7 @@ const Navbar = () => {
                 Contact Me   
             </button>
 
-            <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
+            <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)} aria-hidden="true"/>
             <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
                 <Link to='/' className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
                 <Link to='/about' className="listItem" onClick={()=>setShowMenu(false)}>About</Link>

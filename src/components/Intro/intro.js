@@ -7,17 +7,14 @@ const Intro = () => {
         <section id='intro'>
             <div className="introContent">
                 <span className="hello">Hello!</span>
-                <span className="introText">I'm  <span className="introName">Linh</span> 
-                {/* <br/>Software Engineer */}
+                <span className="introText">I'm  <span className="introName" aria-hidden="true">Linh</span> 
                 </span>
 
                 <p className = 'introPara'>I'm a senior Computer Science and Business Analytics major 
                     <br/>at Bucknell University
-                    {/* <br />My experience is focused on working with LLMs and machine learning models 
-                    <br/> to design chatbot and AI features */}
                     </p>
             </div>
-            <img src={bg} alt="" className="bg"></img>
+            <img src={bg} alt="headshot" className="bg" aria-hidden="true"></img>
         </section>
     )
 }

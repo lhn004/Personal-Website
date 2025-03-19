@@ -32,7 +32,7 @@ const Contact = () => {
                 
                 <div className="links">
                     <a href="https://www.linkedin.com/in/linh-nguyen-52123021a/" target="_blank">
-                        <img src={linkedinIcon} alt="LinkedIn" className="link" />
+                        <img src={linkedinIcon} alt="LinkedIn" className="link" aria-hidden="true"/>
                     </a>
                 </div> 
             </form>
