@@ -7,7 +7,7 @@ const Intro = () => {
         <section id='intro'>
             <div className="introContent">
                 <span className="hello">Hello!</span>
-                <span className="introText">I'm  <span className="introName" aria-hidden="true">Linh</span> 
+                <span className="introText">I'm  <span className="introName">Linh</span> 
                 </span>
 
                 <p className = 'introPara'>I'm a senior Computer Science and Business Analytics major 

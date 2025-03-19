@@ -43,6 +43,7 @@ nav {
     height: 3rem;
     right: 13rem;
     border-radius: 2rem;
+    cursor: pointer
 }
 
 .desktopMenuImg {
