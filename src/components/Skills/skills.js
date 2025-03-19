@@ -13,7 +13,7 @@ import Pic5 from '../../assets/IMG_6458.png'
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className="skillTitle">What I do</span>
+            <span className="skillTitle">What I Do</span>
             <span className="skillDesc">I am an entry level professional with experience in working with LLMs and Machine Learning Models to design AI chatbot and applications.
                 Before switching to AI engineering field, I have gained a strong foundation in data analysis through participating in  data science and data analytics competitions.
             </span>
@@ -40,8 +40,8 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-
-            <span className="skillTitle">Hobbies</span>
+        
+            <span className="skillTitle">What I Enjoy</span>
             <span className="skillDesc"> I love cooking and baking in my free time as well as listening to music</span>
             <div className='hobbiesBars'/>
                 <div className='video-container'>
@@ -68,8 +68,12 @@ const Skills = () => {
                         <img src={Pic5} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
                         <span> My first time cooking the whole turkey!! </span>
                     </div>
-                </div>
-            
+            </div>
+
+                <span className="skillTitle">What I Engage In</span>
+                <span className="skillDesc"> 
+                    Outside classes, I'm a Senior Student Fellow for Bucknell Dominique Data Center where I work on a data project while mentoring fellow students, providing guidance on data analysis, research methodologies, and technical skills.
+                </span>
 
         </section>
 

@@ -5,10 +5,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     margin: 0 auto;
 }
+
 
 .skillTitle {
     font-size: 3rem;
@@ -57,6 +58,7 @@
 .hobbiesImgs {
     margin: 1rem 0;
     display: flex;
+    margin-bottom: 4rem;
     /* flex-wrap: wrap; */
 }
 
