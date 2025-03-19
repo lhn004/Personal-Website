@@ -1,6 +1,7 @@
 import './contact.css';
 import linkedinIcon from '../../assets/linkedin.png';
-import React, { useRef } from 'react';
+import githubIcon from '../../assets/github.png';
+import React from 'react';
 
 const Contact = () => {
     const [result, setResult] = React.useState("");
@@ -41,6 +42,9 @@ const Contact = () => {
                 <div className="links">
                     <a href="https://www.linkedin.com/in/linh-nguyen-52123021a/" target="_blank" aria-label="Go to Linh's LinkedIn Page">
                         <img src={linkedinIcon} alt="LinkedIn" className="link" aria-hidden="true"/>
+                    </a>
+                    <a href="https://github.com/lhn004" target="_blank" aria-label="Go to Linh's Github Page">
+                        <img src={githubIcon} alt="Github" className="link" aria-hidden="true"/>
                     </a>
                 </div> 
             </form>
