@@ -31,9 +31,9 @@ const Contact = () => {
                 <button type="submit" value="Send" className='submitBtn'>Submit</button>
                 
                 <div className="links">
-                    <a href="https://www.linkedin.com/in/linh-nguyen-52123021a/" target="_blank" aria-label="Go to Linh's LinkedIn Page">
+                    <Link href="https://www.linkedin.com/in/linh-nguyen-52123021a/" target="_blank" aria-label="Go to Linh's LinkedIn Page">
                         <img src={linkedinIcon} alt="LinkedIn" className="link" aria-hidden="true"/>
-                    </a>
+                    </Link>
                 </div> 
             </form>
         </div>
