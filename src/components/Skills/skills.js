@@ -45,8 +45,8 @@ const Skills = () => {
             <span className="skillDesc"> I love cooking and baking in my free time as well as listening to music</span>
             <div className='hobbiesBars'/>
                 <div className='video-container'>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xKsgjGEudfg?si=PlcdMesC-zezkiyb" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-                    <span>One of my all-time favorite songs!</span>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tkNWlBsL318?si=LAsq7A4EHC_9zWR8" title="What if we?"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                    <span>My fav song recently!</span>
                 </div>
                 
                 <div className="hobbiesImgs">
