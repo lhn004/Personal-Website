@@ -41,7 +41,7 @@ const Skills = () => {
                 </div>
             </div>
         
-            <span className="skillTitle">What I Enjoy</span>
+            <h1 className="skillTitle">What I Enjoy</h1>
             <span className="skillDesc"> I love cooking and baking in my free time as well as listening to music</span>
             <div className='hobbiesBars'/>
                 <div className='video-container'>
