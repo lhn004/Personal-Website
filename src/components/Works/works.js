@@ -30,7 +30,7 @@ const Works = () => {
                     <div className='projectCard'>
                         <h1 className="projectTitle">Uber Data Science Challenge</h1>
                         <p className="projectDesc">Data analysis to enhance Uber's driver enrollment rate</p>
-                        <a href="https://github.com/lhn004/UberDataScienceChallenge" target="_blank" aria-label="Go to Project Github">
+                        <a href="https://github.com/lhn004/UberDataScienceChallenge" target="_blank" aria-label="Go to Uber Data Science Project Github">
                             <button className="moreBtn">Learn More</button>
                         </a>
                     </div>
@@ -42,7 +42,7 @@ const Works = () => {
                         <h1 className="projectTitle">Adobe Analytics Challenge</h1>
                         <p className="projectDesc">Data visualizations to identify and enhance
                         Hilton Hotels’ key performance indicators (KPIs) and improve guests’ digital experience</p>
-                        <a href="https://github.com/lhn004/AdobeAnalyticsChallenge" target="_blank" aria-label="Go to Project Github">
+                        <a href="https://github.com/lhn004/AdobeAnalyticsChallenge" target="_blank" aria-label="Go to Adobe Analytics Project Github">
                             <button className="moreBtn">Learn More</button>
                         </a>
                     </div>
@@ -53,7 +53,7 @@ const Works = () => {
                     <div className='projectCard'>
                         <h1 className="projectTitle">Manhattan College Business Analytics Challenge</h1>
                         <p className="projectDesc">Insights and recommendation to countries in the event of future pandemics </p>
-                        <a href="https://github.com/lhn004/ManhattanCollegeCompetition" target="_blank" aria-label="Go to Project Github">
+                        <a href="https://github.com/lhn004/ManhattanCollegeCompetition" target="_blank" aria-label="Go to Manhattan College Project Github">
                             <button className="moreBtn">Learn More</button>
                         </a>
                     </div>
@@ -64,7 +64,7 @@ const Works = () => {
                     <div className='projectCard'>
                         <h1 className="projectTitle">Home Mortgage Loan Applications</h1>
                         <p className="projectDesc">Identify areas for improving future loan application success rates and decision-making processes</p>
-                        <a href="https://github.com/lhn004/HDMA-Research" target="_blank" aria-label="Go to Project Github">
+                        <a href="https://github.com/lhn004/HDMA-Research" target="_blank" aria-label="Go to HDMA Research Project Github">
                             <button className="moreBtn">Learn More</button>
                         </a>
                     </div>
