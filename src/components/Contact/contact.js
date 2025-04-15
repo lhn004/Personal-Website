@@ -41,10 +41,10 @@ const Contact = () => {
                 
                 <div className="links">
                     <a href="https://www.linkedin.com/in/linh-nguyen-52123021a/" target="_blank" aria-label="Go to Linh's LinkedIn Page">
-                        <img src={linkedinIcon} alt="LinkedIn" className="link" aria-hidden="true"/>
+                        <img src={linkedinIcon} alt="LinkedIn" className="link"/>
                     </a>
                     <a href="https://github.com/lhn004" target="_blank" aria-label="Go to Linh's Github Page">
-                        <img src={githubIcon} alt="Github" className="link" aria-hidden="true"/>
+                        <img src={githubIcon} alt="Github" className="link"/>
                     </a>
                 </div> 
             </form>

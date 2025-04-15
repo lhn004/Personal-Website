@@ -51,21 +51,26 @@ const Skills = () => {
                 
                 <div className="hobbiesImgs">
                     <div className='image-container'>
-                        <img src={Pic1} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
+                        <img src={Pic1} alt="A Yule log cake decorated with chocolate frosting to resemble bark, placed on a black tray with sprigs of pine, white ornaments, and cranberries, next to a small golden Christmas ornament" 
+                        className="hobbiesImg" />
                     </div>
                     <div className='image-container'>
-                        <img src={Pic2} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
+                        <img src={Pic2} alt="Three slices of layered chocolate and vanilla dessert, garnished with small strawberries on a white plate" 
+                        className="hobbiesImg" />
                         <span> Big thanks to my sister for the awesome photos!</span>
                     </div>
                     <div className='image-container'>
-                        <img src={Pic3} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
+                        <img src={Pic3} alt="A stack of caramel-colored macarons surrounded by more macarons lying flat on a black baking tray" 
+                        className="hobbiesImg"/>
                     </div>
                     <div className='image-container'>
-                        <img src={Pic4} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
+                        <img src={Pic4} alt="A round cake topped with white frosting, blueberries, orange slices, and a large chocolate letter B in the center, sitting on a white plate with chocolate shavings around the edge" 
+                        className="hobbiesImg"/>
                         <span> The cake that got me into Bucknell :)) </span>
                     </div>
                     <div className='image-container'>
-                        <img src={Pic5} alt="Cooking Picture" className="hobbiesImg" aria-hidden="true"/>
+                        <img src={Pic5} alt="A whole roasted turkey seasoned with herbs and stuffed with onions, placed in a metal baking tray inside an oven, with juices collected at the bottom" 
+                        className="hobbiesImg"/>
                         <span> My first time cooking the whole turkey!! </span>
                     </div>
             </div>
