@@ -23,9 +23,9 @@ nav {
 }
 
 .desktopMenuListItem:hover {
-    color: #854442;
+    color: white;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #854442;
+    border-bottom: 3px solid white;
 }
 
 
