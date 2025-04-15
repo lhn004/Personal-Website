@@ -13,7 +13,7 @@ import Pic5 from '../../assets/IMG_6458.png'
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className="skillTitle">What I Do</span>
+            <h1 className="skillTitle">What I Do</h1>
             <span className="skillDesc">I am an entry level professional with experience in working with LLMs and Machine Learning Models to design AI chatbot and applications.
                 Before switching to AI engineering field, I have gained a strong foundation in data analysis through participating in  data science and data analytics competitions.
             </span>
