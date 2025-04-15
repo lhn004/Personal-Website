@@ -15,18 +15,40 @@
     font-size: 3rem;
     font-weight: 600;
     margin: 1rem 0;
-    padding-bottom: 2rem;
 }
 
 .accSection {
-    font-weight: 575;
+    font-weight: 600;
     font-size: 1.75rem;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .accDesc {
     font-weight: 400;
-    font-size: 1.25rem;
-    max-width: 50rem;
+    font-size: 1rem;
+    max-width: 51rem;
     padding: 0 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.accList {
+    max-width: 51rem;
+    text-align: left;
+}
+
+.accListItem {
+    font-weight: 600;
+    font-size: 1.15rem;
+    padding-bottom: 0.5rem;
+}
+
+.accListTitle {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.accListDesc {
+    font-weight: 400;
+    font-size: 1rem;
 }
