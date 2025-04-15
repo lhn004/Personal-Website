@@ -9,8 +9,32 @@
 
 
 body {
-    background: #ece0d1 ;
+    background: #ece0d1;
     color: #3c2f2f;
     overflow: hidden;
     overflow-y: scroll;
 }
+
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .skip-link:focus {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    background: #3c2f2f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+  }

@@ -14,14 +14,17 @@ import Accessibility from "./components/Accessibility/accessibility";
 function App() {
   return (
     <Router>
+        <a href="#main" className="skip-link">Skip to main content</a>
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Intro />} />
-          <Route path="/about" element={<Skills/>} />
-          <Route path="/projects" element={<Works/>} />
-          <Route path="/resume" element={<Resume/>} />
-          <Route path="/accessibility" element={<Accessibility/>} />
-        </Routes> 
+        <main id="main">
+          <Routes>
+            <Route exact path="/" element={<Intro />} />
+            <Route path="/about" element={<Skills/>} />
+            <Route path="/projects" element={<Works/>} />
+            <Route path="/resume" element={<Resume/>} />
+            <Route path="/accessibility" element={<Accessibility/>} />
+          </Routes> 
+        </main>
         <Contact/>
       </Router>
 
