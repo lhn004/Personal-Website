@@ -22,6 +22,7 @@ const Navbar = () => {
                 <Link to='/about' className="desktopMenuListItem">About</Link>
                 <Link to='/projects' className="desktopMenuListItem">Projects</Link> 
                 <Link to='/resume' className="desktopMenuListItem">Resume</Link> 
+                <Link to='/accessibility' className="desktopMenuListItem">Accessibility</Link> 
                 {/* <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Clients</Link> */}
             </div>
 
@@ -38,6 +39,7 @@ const Navbar = () => {
                 <Link to='/about' className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
                 <Link to='/projects' className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
                 <Link to='/resume' className="listItem" onClick={()=>setShowMenu(false)}>Resume</Link>
+                <Link to='/accessibility' className="listItem" onClick={()=>setShowMenu(false)}>Accessibility</Link>
                 <Link to='/' className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
             </div>
         </nav>
