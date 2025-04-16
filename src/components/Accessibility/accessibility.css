@@ -21,7 +21,7 @@
     font-weight: 600;
     font-size: 1.75rem;
     padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .accDesc {
@@ -54,9 +54,8 @@
 }
 
 .accImage {
-    width: 200px;
+    width: 175px;
     height: 150px;
-    margin: auto;
     padding: 0.25rem;
 }
 
@@ -65,4 +64,5 @@
     align-items: flex-start;
     gap: 1.5rem;
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }

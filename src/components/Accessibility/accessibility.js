@@ -56,20 +56,35 @@ const Accessibility = () => {
 
                 <li className="accListItem">
                     <h3 className='accListTitle' tabIndex="0">Alt Text </h3>
-                    <span className="accListDesc" tabIndex="0">
-                        All images on my website include descriptive alt text that clearly conveys the purpose and content of the image. 
-                        For example, instead of vague phrases like “cooking image” for one of the images in Skills Section, I write specific descriptions such as “A Yule log cake decorated with chocolate frosting to resemble bark, placed on a black tray with sprigs of pine, white ornaments, and cranberries, next to a small golden Christmas ornament.” 
-                        This helps users understand the context and meaning of the image even if they can't see it. For purely decorative images such as the images in Projects Section that don’t convey meaningful information, I either leave the alt attribute empty (alt="") or hide them from screen readers using aria-hidden="true" so they aren’t unnecessarily announced.
-                    </span>
+                    <div className="accContentRow">
+                        <span className="accListDesc" tabIndex="0">
+                            All images on my website include descriptive alt text that clearly conveys the purpose and content of the image. 
+                            For example, instead of vague phrases like “cooking image” for one of the images in Skills Section, I write specific descriptions such as “A Yule log cake decorated with chocolate frosting to resemble bark, placed on a black tray with sprigs of pine, white ornaments, and cranberries, next to a small golden Christmas ornament.” 
+                            This helps users understand the context and meaning of the image even if they can't see it. For purely decorative images such as the images in Projects Section that don’t convey meaningful information, I either leave the alt attribute empty (alt="") or hide them from screen readers using aria-hidden="true" so they aren’t unnecessarily announced.
+                        </span>
+                    </div>
                 </li>
 
                 <li className="accListItem">
                     <h3 className='accListTitle' tabIndex="0"> ARIA Roles</h3> 
-                    <span className="accListDesc" tabIndex="0">
-                        I use ARIA roles and attributes when native HTML elements don’t provide enough context for assistive technologies. 
-                        These attributes help screen readers better understand the purpose of custom components or complex interactions. 
-                        For example, I use aria-label like Go to Linh's LinkedIn page to provide accessible names for icon-only buttons, such as GitHub or LinkedIn icons, so users know what action the button performs.
-                    </span>
+                    <div className="accContentRow">
+                        <span className="accListDesc" tabIndex="0">
+                            I use ARIA roles and attributes when native HTML elements don’t provide enough context for assistive technologies. 
+                            These attributes help screen readers better understand the purpose of custom components or complex interactions. 
+                            For example, I use aria-label like Go to Linh's LinkedIn page to provide accessible names for icon-only buttons, such as GitHub or LinkedIn icons, so users know what action the button performs.
+                        </span>
+                    </div>
+                </li>
+
+                <li className="accListItem">
+                    <h3 className='accListTitle' tabIndex="0">Keyboard Navigation</h3> 
+                    <div className="accContentRow">
+                        <span className="accListDesc" tabIndex="0">
+                            I ensured that all interactive elements, such as buttons and links, are accessible via keyboard navigation. 
+                            I also added tabIndex to text elements like headings and paragraphs to make them focusable.
+                            This helps users to navigate the website using the Tab key and activate elements using the Enter or Space keys. 
+                        </span>
+                    </div>
                 </li>
 
             </ol>
