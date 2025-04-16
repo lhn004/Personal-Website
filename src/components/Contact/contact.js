@@ -31,8 +31,8 @@ const Contact = () => {
     
     return (
         <div id='contactPage'>
-            <h1 className="contactPageTitle">Contact Me</h1>
-            <span className="contactDesc"> Let me know if you have any work opportunities!</span>
+            <h1 className="contactPageTitle" tabIndex="0">Contact Me</h1>
+            <span className="contactDesc" tabIndex="0"> Let me know if you have any work opportunities!</span>
             <form className="contactForm" onSubmit={onSubmit}>
                 <input type="text" className="name" placeholder='Subject' name='from_name' required/>
                 <input type="text" className="email" placeholder='Your Email' name='from_email' required/>
