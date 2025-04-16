@@ -6,11 +6,11 @@ const Intro = () => {
     return (
         <section id='intro'>
             <div className="introContent">
-                <span className="hello">Hello!</span>
-                <span className="introText">I'm  <span className="introName">Linh</span> 
+                <span className="hello" tabIndex="0">Hello!</span>
+                <span className="introText" tabIndex="0">I'm  <span className="introName">Linh</span> 
                 </span>
 
-                <p className = 'introPara'>I'm a senior Computer Science and Business Analytics major 
+                <p className = 'introPara' tabIndex="0">I'm a senior Computer Science and Business Analytics major 
                     <br/>at Bucknell University
                     </p>
             </div>
