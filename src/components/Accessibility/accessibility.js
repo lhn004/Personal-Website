@@ -89,6 +89,21 @@ const Accessibility = () => {
 
             </ol>
 
+
+            <h2 className="accSection" tabIndex="0">Accessibility Limitations</h2>
+            <span className="accDesc" tabIndex="0">Despite my commitment to accessibility, there are a few known limitations due to platform or third-party integration constraints.
+            I am actively working to resolve these and provide alternative access where possible.
+            </span>
+            <ol className="accList">
+                <li className="accListItem">
+                    <h3 className='accListTitle' tabIndex="0">PDF Resume Viewer (Iframe Limitation)</h3>
+                    <span className="accListDesc" tabIndex="0">
+                        The PDF version of my resume may not be fully accessible to screen readers. 
+                        Instead, I added a direct download link to the accessible tagged PDF is provided immediately below the iframe, allowing users to open it in their preferred PDF reader with better assistive technology support.
+                    </span>
+                </li>
+            </ol>
+
         </section>
     )
 }
