@@ -102,6 +102,16 @@ const Accessibility = () => {
                         Instead, I added a direct download link to the accessible tagged PDF is provided immediately below the iframe, allowing users to open it in their preferred PDF reader with better assistive technology support.
                     </span>
                 </li>
+
+                <li className="accListItem">
+                    <h3 className='accListTitle' tabIndex="0">Youtube Video</h3>
+                    <span className="accListDesc" tabIndex="0">
+                        My website includes a music YouTube video. 
+                        Although the video has closed captions for the lyrics, there is no audio description, as YouTube does not natively support multiple audio tracks for this purpose.
+                        Additionally, there are limitations using screen readers keyboard navigation with Youtube video.
+                        In the future, I think it's a good idea to provide a separate link to the lyrics in the description of the video for better accessibility.
+                    </span>
+                </li>
             </ol>
 
         </section>
