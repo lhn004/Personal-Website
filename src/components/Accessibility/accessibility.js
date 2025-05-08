@@ -108,7 +108,7 @@ const Accessibility = () => {
                     <span className="accListDesc" tabIndex="0">
                         My website includes a music YouTube video. 
                         Although the video has closed captions for the lyrics, there is no audio description, as YouTube does not natively support multiple audio tracks for this purpose.
-                        Additionally, there are limitations using screen readers keyboard navigation with Youtube video.
+                        Additionally, there are limitations using screen readers and keyboard navigation with Youtube video as users cannot use the Tab key to navigate through the video player controls.
                         In the future, I think it's a good idea to provide a separate link to the lyrics in the description of the video for better accessibility.
                     </span>
                 </li>
